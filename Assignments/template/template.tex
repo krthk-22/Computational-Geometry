@@ -1,0 +1,49 @@
+\documentclass{Assignment}
+
+% set the assignment number
+\setassignmentnumber{1}
+\setstartdate{02/08/2024}
+\setenddate{05/08/2024}
+
+% Add topics and authors before the \begin{document} command
+% topics
+\addtopic{Art Gallery Problem}
+
+% authors
+\addauthor{Karthikeya - CS22B026}
+
+% Add the name of the .bib file
+\addbibresource{references.bib}
+
+\begin{document}
+\maketitlepage
+
+% section for details of the problem set
+\section{Overview}
+\printtopicsandauthors
+\begin{itemize}
+    \item Can describe how the submission goes
+\end{itemize}
+
+% section for problems
+\section{Problems}
+\begin{enumerate}
+    \item \begin{problem}[Nice name for the problem]
+    The problem statement comes here.
+    \end{problem}
+    
+    \item \begin{problem}[Problem 2]
+    The problem statement comes here.
+    \supercite{label1}
+    \cite{label2}
+    \end{problem}
+\end{enumerate}
+
+\printbibliography
+% to get the references section you should run the following commands
+% pdflatex template.tex
+% biber template
+% pdflatex template.tex
+% pdflatex template.tex
+
+\end{document}
