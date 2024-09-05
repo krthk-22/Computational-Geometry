@@ -5,6 +5,7 @@ void triangulate_polygon_n3(point* head, ofstream& output)
     point* moving = head;
     point* second_moving = head->next;
 
+    // T(n) = T(x) + T(n-x) + O(x);
     while(moving->next != head)
     {
         do{

@@ -6,20 +6,6 @@ mkdir -p diagonals/naive
 mkdir -p diagonals/ear_clipping
 mkdir -p diagonals/my_algo
 
-# for i in {1..9}
-# do
-#     ./triangulation_n4 polygons/polygon$i.txt diagonals/naive/diagonals$i.txt
-#     ./triangulation_n2 polygons/polygon$i.txt diagonals/ear_clipping/diagonals$i.txt
-#     ./triangulation_my polygons/polygon$i.txt diagonals/my_algo/diagonals$i.txt
-# done
-
-# for i in {0..9}
-# do
-#     ./triangulation_n4 polygons/polygon1$i.txt diagonals/naive/diagonals1$i.txt
-#     ./triangulation_n2 polygons/polygon1$i.txt diagonals/ear_clipping/diagonals1$i.txt
-#     ./triangulation_my polygons/polygon1$i.txt diagonals/my_algo/diagonals1$i.txt
-# done
-
 for i in {1..19}
 do
     # echo "running for polygon$i"
