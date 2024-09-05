@@ -80,11 +80,14 @@ Then you can run the following command to compile the code:
 The below plots show the running time of the three algorithms for different values of $n$.
 
 ![Running Time](time.png)
+
 This plot shows the running time of the three algorithms for different values of $n$ on the smaller testcases. (You can try implementing this on your own machine)
 
 ![Running Time 100](/100_tests/time1.png)
+
 This plot shows the running time of the three algorithms for different values of $n$ on the 100 testcases. (If you have computational power and time try running this by modifiying the code in [running.sh](/running.sh) and [visualisation.py](/visualisation.py)).
 
 ![Running Time 100](time1.png)
+
 This plot shows the running time of the `Ear Clipping` and `Recursive Algorithm` algorithms for different values of $n$ on the 100 testcases.
 
