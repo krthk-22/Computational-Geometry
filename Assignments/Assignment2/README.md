@@ -83,7 +83,7 @@ The below plots show the running time of the three algorithms for different valu
 
 This plot shows the running time of the three algorithms for different values of $n$ on the smaller testcases. (You can try implementing this on your own machine)
 
-![Running Time 100](/100_tests/time1.png)
+![Running Time 100](100_tests/time1.png)
 
 This plot shows the running time of the three algorithms for different values of $n$ on the 100 testcases. (If you have computational power and time try running this by modifiying the code in [running.sh](/running.sh) and [visualisation.py](/visualisation.py)).
 
