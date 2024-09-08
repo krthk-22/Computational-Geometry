@@ -4,7 +4,7 @@ from matplotlib.animation import FuncAnimation
 num_vertices = []
 
 def animate_n4(t):
-    with open(f"polygons/polygon{t}.txt", 'r') as file:
+    with open(f"100_tests/polygons1/polygon{t}.txt", 'r') as file:
         data = file.readlines()
         data = [line.strip() for line in data]
         num_vertices.append(len(data))
@@ -15,7 +15,7 @@ def animate_n4(t):
         vertices.append(coordinates)
 
     diagonals = []
-    with open(f"diagonals/naive/diagonals{t}.txt", 'r') as file:
+    with open(f"100_tests/diagonals/naive/diagonals{t}.txt", 'r') as file:
         data = file.readlines()
         data = [line.strip() for line in data]
         for line_data in data:
@@ -40,11 +40,11 @@ def animate_n4(t):
             ax.plot(x, y, 'b')
 
     ani = FuncAnimation(fig, update, frames=len(diagonals), repeat=False)
-    ani.save(f"gifs/naive/polygon{t}.gif", writer='pillow', fps=3)
+    ani.save(f"100_tests/gifs/naive/polygon{t}.gif", writer='pillow', fps=3)
     plt.close()
 
 def animate_n2(t):
-    with open(f"polygons/polygon{t}.txt", 'r') as file:
+    with open(f"100_tests/polygons1/polygon{t}.txt", 'r') as file:
         data = file.readlines()
         data = [line.strip() for line in data]
 
@@ -54,7 +54,7 @@ def animate_n2(t):
         vertices.append(coordinates)
 
     diagonals = []
-    with open(f"diagonals/ear_clipping/diagonals{t}.txt", 'r') as file:
+    with open(f"100_tests/diagonals/ear_clipping/diagonals{t}.txt", 'r') as file:
         data = file.readlines()
         data = [line.strip() for line in data]
         for line_data in data:
@@ -79,11 +79,11 @@ def animate_n2(t):
             ax.plot(x, y, 'b')
 
     ani = FuncAnimation(fig, update, frames=len(diagonals), repeat=False)
-    ani.save(f"gifs/ear_clipping/polygon{t}.gif", writer='pillow', fps=3)
+    ani.save(f"100_tests/gifs/ear_clipping/polygon{t}.gif", writer='pillow', fps=3)
     plt.close()
 
 def animate_my(t):
-    with open(f"polygons/polygon{t}.txt", 'r') as file:
+    with open(f"100_tests/polygons1/polygon{t}.txt", 'r') as file:
         data = file.readlines()
         data = [line.strip() for line in data]
 
@@ -93,7 +93,7 @@ def animate_my(t):
         vertices.append(coordinates)
 
     diagonals = []
-    with open(f"diagonals/my_algo/diagonals{t}.txt", 'r') as file:
+    with open(f"100_tests/diagonals/my_algo/diagonals{t}.txt", 'r') as file:
         data = file.readlines()
         data = [line.strip() for line in data]
         for line_data in data:
@@ -118,10 +118,10 @@ def animate_my(t):
             ax.plot(x, y, 'b')
 
     ani = FuncAnimation(fig, update, frames=len(diagonals), repeat=False)
-    ani.save(f"gifs/my_algo/polygon{t}.gif", writer='pillow', fps=3)
+    ani.save(f"100_tests/gifs/my_algo/polygon{t}.gif", writer='pillow', fps=3)
     plt.close()
 
-for t in range(1, 20):
+for t in range(4, 101):
     animate_n4(t)
     animate_n2(t)
     animate_my(t)

@@ -56,5 +56,5 @@ int main(int argv, char* argc[])
     auto duration = chrono::duration_cast<chrono::microseconds>(end - start);
 
     ofstream output_time("time.txt", ios::app);
-    output_time << duration.count() << endl;
+    output_time << duration.count() << " ";
 }
