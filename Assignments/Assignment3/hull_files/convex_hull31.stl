@@ -1,0 +1,240 @@
+solid convex_hull
+  facet normal 0.0489959 -0.832931 0.551204
+    outer loop
+      vertex -8 -5 8
+      vertex -3 -10 0
+      vertex 9 -4 8
+    endloop
+  endfacet
+  facet normal -0.726345 -0.664964 -0.173914
+    outer loop
+      vertex -2 -9 -8
+      vertex -3 -10 0
+      vertex -10 0 -9
+    endloop
+  endfacet
+  facet normal -0.952848 0.241877 0.18324
+    outer loop
+      vertex -8 -5 8
+      vertex -7 5 0
+      vertex -10 0 -9
+    endloop
+  endfacet
+  facet normal -0.774458 -0.625762 -0.0929349
+    outer loop
+      vertex -3 -10 0
+      vertex -8 -5 8
+      vertex -10 0 -9
+    endloop
+  endfacet
+  facet normal -0.615457 0.615457 0.492366
+    outer loop
+      vertex 2 10 5
+      vertex -7 5 0
+      vertex 0 8 5
+    endloop
+  endfacet
+  facet normal -0.457496 0.457496 0.762493
+    outer loop
+      vertex -8 -5 8
+      vertex 2 10 5
+      vertex 0 8 5
+    endloop
+  endfacet
+  facet normal -0.632548 0.521425 0.572712
+    outer loop
+      vertex -7 5 0
+      vertex -8 -5 8
+      vertex 0 8 5
+    endloop
+  endfacet
+  facet normal -0.065938 -0.989071 -0.131876
+    outer loop
+      vertex -3 -10 0
+      vertex -2 -9 -8
+      vertex 1 -10 -2
+    endloop
+  endfacet
+  facet normal 0.448305 -0.87793 0.168114
+    outer loop
+      vertex 8 -7 -5
+      vertex 9 -4 8
+      vertex 1 -10 -2
+    endloop
+  endfacet
+  facet normal 0.193247 -0.901819 0.386494
+    outer loop
+      vertex 9 -4 8
+      vertex -3 -10 0
+      vertex 1 -10 -2
+    endloop
+  endfacet
+  facet normal 0.735975 0.344092 -0.583045
+    outer loop
+      vertex 9 -4 -8
+      vertex 4 5 -9
+      vertex 8 10 -1
+    endloop
+  endfacet
+  facet normal 0.408248 0.816497 0.408248
+    outer loop
+      vertex 2 10 5
+      vertex 9 6 6
+      vertex 8 10 -1
+    endloop
+  endfacet
+  facet normal 0.990806 0.11009 -0.0786354
+    outer loop
+      vertex 9 6 6
+      vertex 9 -4 -8
+      vertex 8 10 -1
+    endloop
+  endfacet
+  facet normal 0.943471 -0.331042 -0.0165521
+    outer loop
+      vertex 8 -7 -5
+      vertex 9 -4 -8
+      vertex 10 -2 9
+    endloop
+  endfacet
+  facet normal 0.0716115 0.358057 0.930949
+    outer loop
+      vertex 9 6 6
+      vertex 2 10 5
+      vertex 10 -2 9
+    endloop
+  endfacet
+  facet normal 0.99274 0.0978758 -0.0699113
+    outer loop
+      vertex 9 -4 -8
+      vertex 9 6 6
+      vertex 10 -2 9
+    endloop
+  endfacet
+  facet normal -0.0961756 0.256468 0.961756
+    outer loop
+      vertex 2 10 5
+      vertex -8 -5 8
+      vertex 10 -2 9
+    endloop
+  endfacet
+  facet normal 0.885927 -0.462223 0.0385186
+    outer loop
+      vertex 9 -4 8
+      vertex 8 -7 -5
+      vertex 10 -2 9
+    endloop
+  endfacet
+  facet normal 0.0269289 -0.457791 0.888652
+    outer loop
+      vertex -8 -5 8
+      vertex 9 -4 8
+      vertex 10 -2 9
+    endloop
+  endfacet
+  facet normal -0.52117 0.848763 0.0893435
+    outer loop
+      vertex -7 5 0
+      vertex 2 10 5
+      vertex -1 9 -3
+    endloop
+  endfacet
+  facet normal -0.090167 0.991837 -0.090167
+    outer loop
+      vertex 2 10 5
+      vertex 8 10 -1
+      vertex -1 9 -3
+    endloop
+  endfacet
+  facet normal 0.0734421 -0.161573 -0.984124
+    outer loop
+      vertex 9 -4 -8
+      vertex -2 -9 -8
+      vertex 2 5 -10
+    endloop
+  endfacet
+  facet normal 0.442326 0.147442 -0.884652
+    outer loop
+      vertex 4 5 -9
+      vertex 9 -4 -8
+      vertex 2 5 -10
+    endloop
+  endfacet
+  facet normal -0.026774 -0.13387 -0.990637
+    outer loop
+      vertex -2 -9 -8
+      vertex -10 0 -9
+      vertex 2 5 -10
+    endloop
+  endfacet
+  facet normal 0.304855 0.731653 -0.609711
+    outer loop
+      vertex 8 10 -1
+      vertex 4 5 -9
+      vertex 2 5 -10
+    endloop
+  endfacet
+  facet normal 0.0126158 0.870494 -0.492018
+    outer loop
+      vertex -1 9 -3
+      vertex 8 10 -1
+      vertex 2 5 -10
+    endloop
+  endfacet
+  facet normal 0.424264 -0.707107 -0.565685
+    outer loop
+      vertex 9 -4 -8
+      vertex 8 -7 -5
+      vertex 2 -9 -7
+    endloop
+  endfacet
+  facet normal 0.21398 -0.470757 -0.855921
+    outer loop
+      vertex -2 -9 -8
+      vertex 9 -4 -8
+      vertex 2 -9 -7
+    endloop
+  endfacet
+  facet normal 0.348743 -0.929981 -0.116248
+    outer loop
+      vertex 8 -7 -5
+      vertex 1 -10 -2
+      vertex 2 -9 -7
+    endloop
+  endfacet
+  facet normal 0.0467269 -0.981266 -0.186908
+    outer loop
+      vertex 1 -10 -2
+      vertex -2 -9 -8
+      vertex 2 -9 -7
+    endloop
+  endfacet
+  facet normal -0.722806 0.677631 -0.135526
+    outer loop
+      vertex -10 0 -9
+      vertex -7 5 0
+      vertex -4 7 -6
+    endloop
+  endfacet
+  facet normal -0.5547 0.83205 0
+    outer loop
+      vertex -7 5 0
+      vertex -1 9 -3
+      vertex -4 7 -6
+    endloop
+  endfacet
+  facet normal -0.306147 0.584462 -0.751451
+    outer loop
+      vertex 2 5 -10
+      vertex -10 0 -9
+      vertex -4 7 -6
+    endloop
+  endfacet
+  facet normal -0.057073 0.856095 -0.513657
+    outer loop
+      vertex -1 9 -3
+      vertex 2 5 -10
+      vertex -4 7 -6
+    endloop
+  endfacet
+endsolid convex_hull

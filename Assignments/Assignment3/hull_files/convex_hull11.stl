@@ -1,0 +1,100 @@
+solid convex_hull
+  facet normal 0.423425 0.872512 -0.24379
+    outer loop
+      vertex 3 4 -5
+      vertex 2 7 4
+      vertex 9 5 9
+    endloop
+  endfacet
+  facet normal -0.544949 0.3114 -0.778499
+    outer loop
+      vertex -1 4 -3
+      vertex -1 -1 -5
+      vertex -9 5 3
+    endloop
+  endfacet
+  facet normal -0.140181 0.934539 -0.327089
+    outer loop
+      vertex 2 7 4
+      vertex 3 4 -5
+      vertex -9 5 3
+    endloop
+  endfacet
+  facet normal -0.218218 0.872872 -0.436436
+    outer loop
+      vertex 3 4 -5
+      vertex -1 4 -3
+      vertex -9 5 3
+    endloop
+  endfacet
+  facet normal -0.196116 0.784465 0.588348
+    outer loop
+      vertex 9 5 9
+      vertex 2 7 4
+      vertex -9 5 3
+    endloop
+  endfacet
+  facet normal -0.539464 -0.247623 0.804774
+    outer loop
+      vertex -9 5 3
+      vertex -2 -7 4
+      vertex 5 -6 9
+    endloop
+  endfacet
+  facet normal -0.314158 0.114239 0.942473
+    outer loop
+      vertex 9 5 9
+      vertex -9 5 3
+      vertex 5 -6 9
+    endloop
+  endfacet
+  facet normal -0.544949 0.3114 -0.778499
+    outer loop
+      vertex -1 -1 -5
+      vertex -1 4 -3
+      vertex 1 -10 -10
+    endloop
+  endfacet
+  facet normal -0.417585 0.35793 -0.83517
+    outer loop
+      vertex -1 4 -3
+      vertex 3 4 -5
+      vertex 1 -10 -10
+    endloop
+  endfacet
+  facet normal 0.918853 0.0096215 -0.394482
+    outer loop
+      vertex 3 4 -5
+      vertex 9 5 9
+      vertex 1 -10 -10
+    endloop
+  endfacet
+  facet normal -0.858581 -0.507115 -0.0753142
+    outer loop
+      vertex -2 -7 4
+      vertex -9 5 3
+      vertex 1 -10 -10
+    endloop
+  endfacet
+  facet normal -0.544949 0.3114 -0.778499
+    outer loop
+      vertex -9 5 3
+      vertex -1 -1 -5
+      vertex 1 -10 -10
+    endloop
+  endfacet
+  facet normal -0.00865614 -0.978144 0.207747
+    outer loop
+      vertex 5 -6 9
+      vertex -2 -7 4
+      vertex 1 -10 -10
+    endloop
+  endfacet
+  facet normal 0.932432 -0.339066 -0.124919
+    outer loop
+      vertex 9 5 9
+      vertex 5 -6 9
+      vertex 1 -10 -10
+    endloop
+  endfacet
+endsolid convex_hull
