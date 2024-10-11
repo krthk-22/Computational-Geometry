@@ -21,7 +21,7 @@ fig.add_trace(go.Mesh3d(
     y=mesh_y,
     z=mesh_z,
     color='lightblue',
-    opacity=0.5,
+    opacity=0.8,
     name='Convex Hull',
     alphahull=0
 ))
@@ -35,6 +35,21 @@ fig.add_trace(go.Scatter3d(
     marker=dict(size=5, color='red'),
     name='3D Points'
 ))
+
+# Adding edges of the convex hull
+for vector in convex_mesh.vectors:
+    for i1 in range(3):
+        start_vertex = vector[i1]
+        end_vertex = vector[(i1 + 1) % 3]
+        
+        fig.add_trace(go.Scatter3d(
+            x=[start_vertex[0], end_vertex[0]],
+            y=[start_vertex[1], end_vertex[1]],
+            z=[start_vertex[2], end_vertex[2]],
+            mode='lines',
+            line=dict(color='black', width=2),
+            name='Edges'
+        ))
 
 # Update layout
 fig.update_layout(
