@@ -1,0 +1,11 @@
+\begin{frame}{Decomposition of Catalan Number}
+    \begin{itemize}[<+->]
+        \item Catalan Number $C_n = \frac{{2n \choose n}}{n+1}$
+        \item $\frac{{2n \choose n}}{n+1} = {2n \choose n}\frac{1}{n+1} = {2n \choose n}\left(1 - \frac{n}{n+1}\right) = {2n\choose n} - \frac{2n!}{n!n!} \cdot \frac{n}{n+1}$
+        \item $C_n = {2n \choose n} - {2n \choose n-1} $
+        \item If we observe carefully will these 2 terms. The first term looks like total paths from (0, 0) to (n, n).
+        \item $C_n$ is the number of paths that do not cross the diagonal
+        \item Which implies ${2n \choose n-1} = {2n \choose n} - C_n$ are the number of paths that cross the diagonal.
+        \item Now we will see how the above statement is true.
+    \end{itemize}
+\end{frame}

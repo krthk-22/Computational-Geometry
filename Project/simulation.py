@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 # Function to generate random masses and positions
 def generate_masses_and_positions(num_masses):
-    masses = np.random.randint(1, 200, size=num_masses)
+    masses = np.random.randint(1, 200, size = num_masses)
     np.random.seed(43)  # For reproducibility
     positions = [(np.random.uniform(-10, 10), np.random.uniform(-10, 10)) for _ in range(num_masses)]
     return masses, positions
@@ -41,7 +41,7 @@ def plot_dominant_regions(num_points, ax, masses, positions):
     ax.set_ylabel('Y')
 
 # Main script
-num_masses = 5  # Change this value to set the number of masses
+num_masses = 8  # Change this value to set the number of masses
 masses, positions = generate_masses_and_positions(num_masses)
 
 # Plot for different grid resolutions

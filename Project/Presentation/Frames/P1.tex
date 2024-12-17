@@ -1,0 +1,44 @@
+\begin{frame}{PHP in Geometry}
+    \begin{itemize}
+        \item Given five points inside an equilateral triangle of side length 2, show that there are two points whose distance from each other is $\leq 1$.
+    \end{itemize}
+    \begin{figure}
+        \centering
+        \begin{tikzpicture}
+            [G/.style = {circle,draw = green!60,fill = green!5,very thick,minimum size = 5mm}]
+            \draw (210:2)node(1){};
+            \draw (90:2)node(2){};
+            \draw (330:2)node(3){};
+            \draw (1)--(2)[red, very thick];
+            \draw (2)--(3)[red, very thick];
+            \draw (3)--(1)[red, very thick];
+        \end{tikzpicture}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Solution}
+    \begin{itemize}
+        \item Let us join the mid-points of each of the sides and divide the larger triangle into 4 smaller triangles
+        \begin{figure}
+            \centering
+            \begin{tikzpicture}
+                \draw (210:2)node(1){};
+                \draw (90:2)node(2){};
+                \draw (330:2)node(3){};
+                \draw (1)--(2)[red, very thick];
+                \draw (2)--(3)[red, very thick];
+                \draw (3)--(1)[red, very thick];
+                \draw (270:1)node(4){};
+                \draw (150:1)node(5){};
+                \draw (30:1)node(6){};
+                \draw (4)--(5) [blue, very thick];
+                \draw (5)--(6) [blue, very thick];
+                \draw (6)--(4) [blue, very thick];
+            \end{tikzpicture}
+        \end{figure}
+
+        \item Now observe that any two points in the smaller triangle are at a distance of at most 1.
+        \item Since there are 5 points and only 4 triangles there should be a smaller triangle containing at least 2 points.
+        \item Then these 2 points are at a distance $\leq 1$
+    \end{itemize}
+\end{frame}
